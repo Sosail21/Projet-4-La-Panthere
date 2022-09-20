@@ -73,34 +73,33 @@
 	<h2>Rentrons en contact</h2>
 	<div class="container bloc-lg">
 		<div class="row">
-			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+			<div class="col-sm-6" id="formulaire_de_contact">
+				<form id="form_1" novalidate="">
+				<!-- success-msg="Votre message a été envoyé."
+				  fail-msg="Désolé, il semble que notre serveur de messagerie ne réponde pas, Désolé pour le dérangement !" -->
 					<div class="form-group">
-						<label>
-							Nom
-						</label>
-						<input id="name" class="form-control" required />
+						<label for="name"> Nom </label>
+						<input id="name" class="form-control" required="">
+				  		<div class="help-block"></div>
 					</div>
-					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
-						<input id="email" class="form-control" type="email" required />
+				  	<div class="form-group">
+						<label for="email"> Adresse email </label>
+						<input id="email" class="form-control" type="email" required="">
+				  		<div class="help-block"></div>
 					</div>
-					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
+				  	<div class="form-group">
+						<label for="input_504"> Comment nous avez-vous connu ? </label>
+						<input class="form-control" type="email" required="" id="input_504">
+				  		<div class="help-block"></div>
 					</div>
-					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+				  	<div class="form-group">
+						<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)<br> </label>
+					  	<textarea id="message" class="form-control" rows="4" cols="50" required=""></textarea>
+				  		<div class="help-block"></div>
+					</div>
+					<button id="btn-send" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
-					</button>
+				  	</button>
 				</form>
 			</div>
 			<div class="col-sm-6">
@@ -123,9 +122,9 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center white">
+				<p class="text-center black margin text-resize">
 					Agence La Panthère - Agence web basée à Lyon.<br>
-				</p>
+				  </p>
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
@@ -151,7 +150,7 @@
 				<div class="keywords" style="color:#F3976C;">Agence web à Lyon, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>
 			</div>
 			<div class="row row-adjust">
-				<div class="col-sm-4">
+				<div class="col-sm-4 links">
 					Partenaires
 						<ul>
 							<li>
@@ -166,7 +165,7 @@
 						</ul>
 								
 				</div>
-				<div class="col-sm-4">
+				<div class="col-sm-4 links">
 					Annuaires liste 1
 					<ul>
 						<li>
