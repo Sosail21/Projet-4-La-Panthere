@@ -152,7 +152,7 @@ input[type=submit] {
     cursor: pointer
 }
 
-button[disabled],
+/*button[disabled],
 html input[disabled] {
     cursor: default
 }
@@ -221,7 +221,7 @@ th {
     padding: 0
 }
 
-/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css 
 
 @media print {
     *,
@@ -1360,7 +1360,7 @@ th {
 
 .glyphicon-menu-up:before {
     content: "\e260"
-}
+}***/
 
 * {
     -webkit-box-sizing: border-box;
@@ -2080,7 +2080,7 @@ pre code {
     width: 100%
 }
 
-.col-xs-11 {
+/*.col-xs-11 {
     width: 91.66666667%
 }
 
@@ -3643,7 +3643,7 @@ textarea.input-lg {
         padding-top: 6px;
         font-size: 12px
     }
-}
+}*/
 
 .btn {
     display: inline-block;
