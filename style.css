@@ -201,11 +201,6 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.d-bloc .panel,
-.l-bloc {
-    color: rgba(0, 0, 0, .5);
-}
-
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
     color: rgba(0, 0, 0, .7);
@@ -1348,6 +1343,10 @@ textarea:focus{
     border: 2px solid rgb(255, 134, 47);
 }
 
+li
+{
+    list-style-type: none;
+}
 
 
 
